@@ -1,2 +1,6 @@
 SHIFAAF VOTING
 ==============
+
+The general elections in Pakistan had  only 55% turn out in the last general elections, secondly heavily rigged and the number of unverified votes almost equates the verified votes. The low turnout of people makes it even miserable. We have developed a mobile application that will not only facilitate free and fair elections but will also simplify the process of vote casting and will ensure transparency. It will allow overseas Pakistanis and people who are out of their cities to cast their votes through their mobile phones.
+
+Our application will facilitate the users to cast their vote from their home. Once the application is launched, the voter will enter his CNIC number. Once that is verified from NADRA database, the user will be asked for finger-print scanning. The user will be prompted to verify three finger prints at random. Once the finger prints are authenticated, you can cast your vote for the MNA and MPA seat in your constituency. Through CNIC and finger print scanning we will ensure eligibility, fairness, uniqueness and security.
