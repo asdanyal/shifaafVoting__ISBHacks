@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.nabihaiqbal.evoting.final_vote">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_vote"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#f26b22"
+
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+            <LinearLayout
+                android:id="@+id/vote_toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/vote_toolbar"
+                    android:textStyle="bold"
+                    android:text="Home"
+                    android:textColor="#e8fffb"
+                    android:textSize="26dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.nabihaiqbal.evoting.final_vote"
+        tools:showIn="@layout/activity_final_vote">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your MNA Selection"
+            android:id="@+id/textView12"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MNA"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="49dp"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tariq Fazal Chaudhary"
+            android:id="@+id/textView14"
+
+            android:layout_alignTop="@+id/textView13"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="43dp"
+            android:layout_marginEnd="43dp"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:id="@+id/button2"
+
+            android:layout_marginTop="94dp"
+            android:layout_below="@+id/textView14"
+            android:layout_alignRight="@+id/textView14"
+            android:layout_alignEnd="@+id/textView14"
+            android:background="#66c1d4"/>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
